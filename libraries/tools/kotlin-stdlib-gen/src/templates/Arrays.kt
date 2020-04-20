@@ -1415,7 +1415,12 @@ object ArrayOps : TemplateGroupBase() {
         exclude(PrimitiveType.Boolean)
     } builder {
         since("1.4")
-        doc { """Sorts a range in the ${f.collection} in-place descending according to their natural sort order.""" }
+        doc {
+            """
+            Sorts elements of the ${f.collection} in the specified range in-place.
+            The elements are sorted descending according to their natural sort order.
+            """
+        }
         returns("Unit")
         typeParam("T : Comparable<T>")
 

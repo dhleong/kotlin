@@ -4007,7 +4007,8 @@ public fun UShortArray.sort(fromIndex: Int = 0, toIndex: Int = size): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -4017,7 +4018,8 @@ public fun UIntArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -4027,7 +4029,8 @@ public fun ULongArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -4037,7 +4040,8 @@ public fun UByteArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes

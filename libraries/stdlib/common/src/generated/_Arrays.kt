@@ -7971,7 +7971,8 @@ public expect fun DoubleArray.sort(fromIndex: Int = 0, toIndex: Int = size): Uni
 public expect fun CharArray.sort(fromIndex: Int = 0, toIndex: Int = size): Unit
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  * 
  * The sort is _stable_. It means that equal elements preserve their order relative to each other after sorting.
  */
@@ -7981,7 +7982,8 @@ public fun <T : Comparable<T>> Array<out T>.sortDescending(fromIndex: Int, toInd
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun ByteArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -7990,7 +7992,8 @@ public fun ByteArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun ShortArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -7999,7 +8002,8 @@ public fun ShortArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun IntArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -8008,7 +8012,8 @@ public fun IntArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun LongArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -8017,7 +8022,8 @@ public fun LongArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun FloatArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -8026,7 +8032,8 @@ public fun FloatArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun DoubleArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
@@ -8035,7 +8042,8 @@ public fun DoubleArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
 }
 
 /**
- * Sorts a range in the array in-place descending according to their natural sort order.
+ * Sorts elements of the array in the specified range in-place.
+ * The elements are sorted descending according to their natural sort order.
  */
 @SinceKotlin("1.4")
 public fun CharArray.sortDescending(fromIndex: Int, toIndex: Int): Unit {
